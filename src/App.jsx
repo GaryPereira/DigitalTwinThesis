@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Canvas } from '@react-three/fiber'
-
+import Experience from './Experience.jsx'
 import './App.css'
 
 function App() {
@@ -8,10 +8,7 @@ function App() {
   return (
     <>
       <Canvas>
-        <mesh>
-          <torusKnotGeometry />
-          <meshNormalMaterial />
-        </mesh>
+        <Experience />
       </Canvas>
     </>
   )

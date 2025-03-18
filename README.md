@@ -14,12 +14,26 @@ Chose to make a application using React and Javascript
 ## Seting up Git
 
 ```bash
-git init
+# first time only
+git init 
 git add .
 git commit. -m "[message here]"
+# first time only
 git branch -M main
+# first time only
 git remote add origin https://github.com/GaryPereira/DigitalTwinThesis.git
 git push -u origin main
 ```
+
+## Running the App
+
+```bash
+ # install all dependences
+ npm install
+ # Run a local server
+ npm run dev
+```
+
+This gives us a simple template with some assets, a button to update a counter, and some information to get started.
 
 
